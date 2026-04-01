@@ -18,7 +18,8 @@ const Signup = () => {
       email: data.email,
       password: data.password,
     };
-    await axios.post("http://localhost:3000/user/signup", userInfo)
+
+    await axios.post(`${import.meta.env.VITE_BACKEND_URL}/user/signup`, userInfo)
     .then((res) => {
       if(res.data){
         toast.success("User created successfully!");

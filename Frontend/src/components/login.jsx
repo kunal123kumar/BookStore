@@ -17,7 +17,7 @@ const Login = () => {
     password: data.password,
   };
   await axios
-    .post("http://localhost:3000/user/login", UserInfo)
+    .post(`${import.meta.env.VITE_BACKEND_URL}/user/login`, UserInfo)
     .then((res) => {
       if (res.data) {
         toast.success("User logged in successfully!");

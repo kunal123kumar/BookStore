@@ -20,9 +20,10 @@ const ContactUs = () => {
     message: data.message,
   };
 
+
   try {
    // ContactUs.jsx
-const res = await axios.post("http://localhost:3000/contactUs", infodata);
+const res = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/contactUs`, infodata);
     if (res.data) {
       toast.success("Message sent successfully!");
       window.location.href = "/";

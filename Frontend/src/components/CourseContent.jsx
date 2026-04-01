@@ -10,7 +10,7 @@ const CourseContent = () => {
   useEffect(() => {
     const getBooks = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/book");
+        const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/book`);
         console.log(response.data);
         setData(response.data);
       } catch (error) {
