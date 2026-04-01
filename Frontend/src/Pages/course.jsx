@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from "../components/Navbar";
-import Footer from '../components/Footer'
-import CourseConent from '../components/CourseContent'
+import Navbar from "../components/Navbar.jsx";
+import Footer from '../components/Footer.jsx';
+import CourseConent from '../components/CourseContent.jsx';
 
 const course = () => {
   return (

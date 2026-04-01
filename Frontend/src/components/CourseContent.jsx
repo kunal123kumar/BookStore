@@ -1,8 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar.jsx";
 import axios from "axios";
-import Card from "./Card";
+import Card from "./Card.jsx";
 import { Link } from "react-router-dom";
 
 const CourseContent = () => {

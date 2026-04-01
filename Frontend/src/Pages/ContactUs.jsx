@@ -1,8 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { Mail, Phone, User, MessageSquare } from "lucide-react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footer.jsx";
 import axios from "axios";
 import { toast } from "react-hot-toast";
 

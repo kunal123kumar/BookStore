@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Searchbar from "./Searchbar";
-import Login from "./Login";
+import Login from "./Login.jsx";
 
 const Navbar = () => {
   const Navitems = (

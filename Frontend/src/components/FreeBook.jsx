@@ -2,7 +2,7 @@ import React from "react";
 import {useState, useEffect} from "react";
 import axios from "axios";
 import Slider from "react-slick";
-import Card from "./Card";
+import Card from "./Card.jsx";
 
 const FreeBook = () => {
   const[FreeBook, setFreeBook] = useState([]);
