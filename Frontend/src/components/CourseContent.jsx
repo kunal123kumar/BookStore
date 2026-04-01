@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import Navbar from "./navbar";
+import Navbar from "../components/Navbar";
 import axios from "axios";
 import Card from "./Card";
 import { Link } from "react-router-dom";
