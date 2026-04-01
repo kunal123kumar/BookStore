@@ -1,10 +1,10 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./Pages/home";
-import Course from "./Pages/course";
-import Signup from "./Pages/signup";
+import Home from "./Pages/Home";
+import Course from "./Pages/Course";
+import Signup from "./Pages/Signup";
 import ContactUs from "./Pages/ContactUs";
-import About from "./Pages/about";
+import About from "./Pages/About";
 import { Toaster } from "react-hot-toast";
 import ProtectedRoute from "./components/ProtectedRoute";
 import BuyBook from "./Pages/BuyBook";
