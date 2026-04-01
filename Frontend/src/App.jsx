@@ -1,13 +1,13 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./Pages/Home";
-import Course from "./Pages/Course";
-import Signup from "./Pages/Signup";
-import ContactUs from "./Pages/ContactUs";
-import About from "./Pages/About";
+import Home from "./pages/Home";
+import Course from "./pages/Course";
+import Signup from "./pages/Signup";
+import ContactUs from "./pages/ContactUs";
+import About from "./pages/About";
 import { Toaster } from "react-hot-toast";
 import ProtectedRoute from "./components/ProtectedRoute";
-import BuyBook from "./Pages/BuyBook";
+import BuyBook from "./pages/BuyBook";
 
 const AppRouter = createBrowserRouter([
   {
